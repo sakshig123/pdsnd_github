@@ -8,7 +8,9 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+
 months = ('jan', 'feb', 'mar', 'apr', 'may', 'jun','jul')
+
 
 weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
             'saturday')
@@ -227,6 +229,7 @@ def user_stats(df, city):
     user_types = df['User Type'].value_counts().to_string()
     print("Distribution for user types:")
     print(user_types)
+
 
     ### Display counts of gender
     try:
