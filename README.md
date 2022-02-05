@@ -7,7 +7,7 @@
 Project 3
 
 ### Description
-Describe what your project is about and what it does
+Project include Bikshare python code
 
 ### Files used
 Include the files used
